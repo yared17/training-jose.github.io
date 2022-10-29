@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entrenamiento audición</title>
       <!-- Favicons -->
-  <link href="DinoNadando/img/favicon.png" rel="icon">
-  <link href="DinoNadando/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="favicon.png" rel="icon">
+  <link href="apple-touch-icon.png" rel="apple-touch-icon">
     <style>
 
 * {
@@ -55,7 +55,7 @@ body{
     left: 42px;
     z-index: 2;
 
-    background: url(DinoNadando/img/dino.png) repeat-x 0px 0px;
+    background: url(dino.png) repeat-x 0px 0px;
     background-size: 336px 84px;
     background-position-x: 0px;
 
@@ -77,7 +77,7 @@ body{
     left: 0;
     z-index: 3;
 
-    background: url(DinoNadando/img/mar.png) repeat-x 0px 0px;
+    background: url(mar.png) repeat-x 0px 0px;
     background-size: 48px 258px;
     animation: oleaje 1.5s ease-in-out infinite;
 
@@ -94,13 +94,13 @@ body{
 }
 .obstaculo-flotante{
     bottom: 90px;
-    background: url(DinoNadando/img/obstaculo2.png)  no-repeat;
+    background: url(obstaculo2.png)  no-repeat;
     animation: abanear 1s ease-in-out infinite;
 }
 
 .obstaculo-hundido{
     bottom: 130px;
-    background: url(DinoNadando/img/obstaculo1.png)  no-repeat;
+    background: url(obstaculo1.png)  no-repeat;
 }
 
 .nube{
@@ -110,7 +110,7 @@ body{
     position: absolute;
     z-index: 0;
 
-    background: url(DinoNadando/img/nube.png) no-repeat;
+    background: url(nube.png) no-repeat;
     background-size: 92px 26px;
 }
 
@@ -120,7 +120,7 @@ body{
     position: absolute;
     z-index: 1;
     
-    background: url(DinoNadando/img/moneda.png) no-repeat center center;
+    background: url(moneda.png) no-repeat center center;
 }
 
 .score{
@@ -194,7 +194,7 @@ body{
     
 
     <div class="contenedor">
-        <audio controls class="f fondo" id="ambiente" src="DinoNadando/sound/fondo.mp3" type="audio/mp3" ></audio>
+        <audio controls class="f fondo" id="ambiente" src="fondo.mp3" type="audio/mp3" ></audio>
 
         <div class="suelo"></div>
         
@@ -204,12 +204,12 @@ body{
 
     </div>
 
-    <div class="game-over"><a href="javascript:location.reload()"><img class="game" src="DinoNadando/img/gameover.png"></a></div>
+    <div class="game-over"><a href="javascript:location.reload()"><img class="game" src="gameover.png"></a></div>
 
-    <audio src="DinoNadando/sound/moneda.mp3" class="audio-moneda"></audio>
-    <audio src="DinoNadando/sound/salto.mp3" class="audio-salto"></audio>
-    <audio src="DinoNadando/sound/bajo.mp3" class="audio-bajo"></audio>
-    <audio src="DinoNadando/sound/gameOver.mp3" class="audio-gameOver"></audio>
+    <audio src="moneda.mp3" class="audio-moneda"></audio>
+    <audio src="salto.mp3" class="audio-salto"></audio>
+    <audio src="bajo.mp3" class="audio-bajo"></audio>
+    <audio src="gameOver.mp3" class="audio-gameOver"></audio>
     
 <script>
 
